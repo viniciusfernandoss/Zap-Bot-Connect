@@ -1,0 +1,30 @@
+#sobre{
+    height: 100vh;
+    background-image: url('../img/bg-sobre-copia.png');
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+.content-sobre h2{
+    font-family: var(--fonte-BebasNeue);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.content-sobre p{
+    font-family: var(--fonte-NunitoSans);
+    font-size: 1rem;
+}
+
+.content-sobre a{
+    text-decoration: none;
+    color: #5304C2;
+    background-color: white;
+    transition: 0.5s;
+}
+.content-sobre a:hover{
+    color: white;
+    background-color: #5304C2;
+}

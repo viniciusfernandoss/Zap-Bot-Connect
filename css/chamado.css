@@ -1,0 +1,29 @@
+#chamado{
+    height: 100vh;
+    
+    background-image: url('../img/bg-gratis.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.content-chamado h2{
+    font-family:var(--fonte-BebasNeue);
+    font-weight: 600;
+    font-size: 3rem;
+}
+.content-chamado p{
+    font-family: var(--fonte-NunitoSans);
+    
+}
+
+.content-chamado a{
+    background-color: white;
+    color: #5304C2;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.content-chamado a:hover{
+    color: white;
+    background-color: #5304C2;
+}
