@@ -1,3 +1,7 @@
+#case-de-sucesso{
+    height: 100vh;
+}
+
 .titulo-func-case-de-sucesso h2{
     font-family:var(--fonte-BebasNeue);
     color: #2B3238;
@@ -14,6 +18,7 @@
     font-weight: 600;
     transition: 0.5s;
 }
+
 #btn-case-de-sucesso a:hover{
     background: transparent;
     color: #8937FB;
@@ -23,5 +28,11 @@
 @media (max-width: 991px) {
     .titulo-func-case-de-sucesso h2{
         font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1900px){
+    #case-de-sucesso{
+        height: 100vh;
     }
 }
